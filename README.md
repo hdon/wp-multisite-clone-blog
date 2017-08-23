@@ -9,9 +9,9 @@ Limitations/Features:
 
 * Uses `mysqli`
 * Expects a `db-settings.php` file to `define()` some constants:
-** DB_HOST
-** DB_USER
-** DB_PASS
+  * DB_HOST
+  * DB_USER
+  * DB_PASS
 * The root of your WordPress Multi-Site installation is hard-coded in `clone-wp.php`
 * Recursively hardlinks all uploads rather than copying them
 * Recursively copies your theme files
